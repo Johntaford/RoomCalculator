@@ -1,0 +1,29 @@
+import java.util. Scanner;
+public class Calc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		try (Scanner Cal = new Scanner(System.in)) {
+		System.out.println("Welcome to Grand Circus' Room Detail Generator!");
+		
+		System.out.print("Enter the length:");
+		double length = Cal.nextDouble();
+		
+		System.out.print("Enter the Width:");
+		double width = Cal.nextDouble();
+		
+		double area = length * width;
+		double perimeter = (length *2)+ (width * 2);
+		
+		System.out.print("Area:" + area);
+		
+		
+		System.out.print("Perimeter" + perimeter);
+	}
+		
+
+	}
+
+}

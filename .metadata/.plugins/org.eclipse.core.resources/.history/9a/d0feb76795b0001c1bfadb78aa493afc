@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Decision {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	Scanner Dec = new Scanner(System.in);
+	
+	int x = 1 >=100;
+	
+	if (1 >= 100);
+		System.out.println("Enter a number between 1 and 100:");
+		int x = Dec.nextInt();
+	
+		
+
+	}
+
+}
